@@ -1,0 +1,301 @@
+/*
+ *2019 QiuSuo Third page
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.contar{
+	background: #f2f4f7 url(../imgs/secondbgd.png) no-repeat center -100px;
+	background-size: 100% 500px;
+	padding: 40px 0 0 0;
+}
+.contop{
+	position: relative;
+}
+.qintro{
+	padding:0 0 10px 0;
+}
+.intro_left{
+	height: 650px;
+}
+.intro_left img{
+	width: 100%;
+	height: 100%;
+}
+.intro_right{
+	/* height: 520px; */
+	/* border: 2px solid #00f; */
+	/* border-right: 0; */
+	font-size: 18px;
+	overflow: hidden;
+	line-height: 2em;
+	padding: 10px 20px;
+}
+.intro_right_item{
+	text-align: left;
+	font-size: 50px;
+	color: #2b6bcc;
+	letter-spacing: 2px;
+	font-family: STXingkai;
+	font-weight: bold;
+	text-align: center;
+}
+.intro_zq{
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: STXingkai;
+	font-weight: bold;
+	text-align: center;
+}
+.intro_right_intro{
+	text-indent: 2em;
+}
+.intro_right_ne{
+	text-align: center;
+}
+.comput{
+	font-size: 30px;
+	padding: 15px 0;
+}
+.nicescroll-rails-vr .nicescroll-cursors {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    animation: pace-stripe-animation 500ms linear infinite;
+    background-size: 20px 20px;
+  }
+@keyframes pace-stripe-animation {
+    from { background-position-y: 0; }
+    to   { background-position-y: 100%; }
+  } 
+.qitem{
+	  position: absolute;
+	  width: 100px;
+	  height: 100px;
+	  background: #5d89cc;
+	  top: 0;
+	  left: 80px;
+}
+.qitem img{
+	position: absolute;
+	width: 60%;
+	left: 50%;
+	top: 50%;
+	margin-top: -34px;
+	margin-left: -30px;
+}
+.qs_ip img{
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+}
+.qs_it img{
+	position: absolute;
+	width: 40%;
+	bottom: 10px;
+	left: 0;
+}
+.departments{
+	width: 100%;
+	height: auto;
+	/* background: url(../imgs/qintro/departments1.png);
+	background-size: 100% 100%; */
+}
+.goloars{
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	/* margin-top: 50px; */
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.network,.designs{
+	float: left;
+	width: 100%;
+	height: 50%;
+	/* background: #f4f4ed; */
+	background:rgba(244, 244, 237,0.8);
+	padding: 20px;
+}
+/* .ne_logo{
+} */
+.ne_logog{
+	text-align: center;
+}
+.ne_logo img{
+	width: 40px;
+	height: 40px;
+	left: 50%;
+}
+.ne_item{
+	text-align: center;
+	font-size: 24px;
+}
+.intro_content{
+	overflow: hidden;
+	height: auto;
+	padding: 12px 10px 0;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+.designs{
+	
+	/* background: #e3f0f7 ; */
+	background: rgba(227, 240, 247,0.8);
+}
+.techy{
+	float: left;
+	background: #e3e7e8;
+	width: 100%;
+	height: 50%;
+	padding: 20px;
+}
+/* second stu  */
+@media screen and (min-width: 768px) {
+	.contar{
+		background-size: 100% 550px;
+	}
+	.se_con li{
+		padding: 20px;
+		width: 45%;
+		margin: 0 2%;
+	}
+	.departments {
+		background: url(../imgs/qintro/departments1.png);
+		background-size: 100% 100%;
+	}
+	.intro_zq{
+		font-size: 50px;
+	}
+	.qintro {
+		padding: 115px 0;
+	}
+	.qs_it img{
+		bottom: 60px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.contar{
+		background-size: 100% 700px;
+	}
+	.se_con li{
+		padding: 20px;
+		width: 33%;
+		margin: auto;
+	}
+	.network, .designs {
+		width: 50%;
+	}
+	.departments {
+		height: 520px;
+	}
+	.intro_content {
+		height: 135px;
+		line-height: 1.5em
+	}
+}
+@media screen and (min-width: 1200px) {
+	.contar{
+		background-size: 100% 900px;
+	}
+	.secon_right{
+		padding:0 10px 0 50px; 
+	}
+}
+/* second stu end */
+/* second and third nav and  qiusuo intro*/
+@media screen and (min-width: 768px) {
+    .header{
+    padding:10px 0 0;
+}
+    .ft{
+    float: left;
+    margin: auto;
+}
+    .navst{
+        border-bottom: 5px solid #a6b9e4;
+    }
+	.naves{
+        display: block !important;
+        float: left;
+        padding-left: 10px;
+        margin:14px auto 0;
+	    height:auto;
+    }
+    @media screen and (width: 768px){
+        .naves{
+            margin: -5px auto 6px;
+        }
+    }
+    .naves li:hover{
+        border-bottom: 4px solid #a6b9e4;
+    }
+    .naves li{
+        width: auto;
+        margin: 0 8px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .naves li{
+        margin: 0 16px;
+    }
+    .naves{
+        font-size: 16px;
+    }
+    .intro_right{
+        height: 520px;
+    }
+    .qs_it img{
+        bottom: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {
+	.naves li{
+        margin: 0 26px;
+    }
+}
+/* end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
